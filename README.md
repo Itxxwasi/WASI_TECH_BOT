@@ -85,6 +85,6 @@ A very good bot that you can use in whatsapp.
 
 ## Please brother🤧🥺🥺🥺 cofre me.!🌟
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/ndounguisex">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/wasitech01v">
   <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee please" height="40" width="150" style="margin-left: 60px;">
 </a>
