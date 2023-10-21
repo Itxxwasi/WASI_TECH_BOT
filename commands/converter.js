@@ -168,7 +168,7 @@ cmd({
             pattern: "fancy",
             desc: "Makes stylish/fancy given text",
             category: "converter",
-            use: '46 Izuku',
+            use: '46 Blast',
             react: "✅",
             filename: __filename
         },
