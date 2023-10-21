@@ -1,5 +1,5 @@
 while true
 do
-echo "Starting BLAST-MD..."
+echo "Starting WASITECH..."
 node lib/client.js
 done
