@@ -37,8 +37,8 @@ async (Void, citel, text, { isCreator }) => {
     }
 
     updating = true;
-    let asciiBorder = '╔══════════════════════════╗\n';
-    asciiBorder += '║    Updater - IZUKU MD    ║\n';
+ let asciiBorder = '╔══════════════════════════╗\n';
+    asciiBorder += '║        BLAST-MD               ║\n';
     asciiBorder += '╚══════════════════════════╝\n';
 
     // Create a loading bar
