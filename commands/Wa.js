@@ -99,7 +99,7 @@ cmd({
         citel.reply(`*Check your DM I LEFT SOMETHING THERE🤭 ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: IZUKU-Support*\n*Group Link:* https://chat.whatsapp.com/IpDbNkTpz1l520HHFuS7B7`,
+            caption: `*Group Name: BLAST-MD*\n*Group Link:* indisponible`,
         });
 
     }
@@ -230,7 +230,7 @@ cmd({
 		const participants = citel.isGroup ? await groupMetadata.participants : "";
     let textt = `_Here is jid address of all users of_\n *- ${groupMetadata.subject}*\n\n`
     for (let mem of participants) {
-            textt += `📍 ${mem.id}\n`;
+            textt += `┆► ${mem.id}\n`;
         }
       citel.reply(textt)
 
@@ -1126,15 +1126,17 @@ cmd({ on: "text" }, async(Void, citel) => {
                 image: {
                     url: await botpic(),
                 },
-                caption: `
-━━━━━༺❃༻━━━━━◇
-☱ *look at that! Someone just leveled up! ✨*
-☱ *👤 Name*: ${citel.pushName}
-☱ *🎚 Level*: ${sck1.level}
-☱ *🛑 Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
-☱ *📍 Role*: *${role}*
-☱ *Enjoy! 😁*━━━━━༺❃༻━━━━——
-`,
+╭––––––––––––––––––►	       caption: `					  
+┆►╭–––––––––––––––►			
+┆►┆➪ *look at that! Someone just leveled up! ✨*
+┆►┆➪ *👤 Name*: ${citel.pushName}
+┆►┆➪ *🎚 Level*: ${sck1.level}
+┆►┆➪ *🛑 Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
+┆►┆➪ *📍 Role*: *${role}*
+┆►┆➪ *Enjoy! *
+┆►┆➪ *BLAST-MD*
+┆►╰––––––––––––––►
+╰–––––––––––►`,
             }, {
                 quoted: citel,
             });
