@@ -60,7 +60,7 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Africa/Lagos').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `–––––––––〘 ` + fancytext(Config.ownername.split(' ')[0], 38) + `〙–––––––––\n`
+                let str = `╭––〘 ` + fancytext(Config.ownername.split(' ')[0], 38) + `〙–––►\n`
                 str +=
                     '```' + `
 ┆►┆➪ 𝐔𝐬𝐞𝐫: ${citel.pushName} 
@@ -82,14 +82,14 @@ Secktor.cmd({
 ` + '```'
                 for (const category in cmds) 
                 {
-                   str += `––––––〘 *${tiny(category)}* 〙––––––\n` ;
+                   str += `╭––〘 *${tiny(category)}* 〙–––►\n` ;
                    if(text.toLowerCase() == category.toLowerCase()){ str = ` *${tiny(category)}* ✤––––––––––––\n` ;      
                         for (const plugins of cmds[category]) { str += `┆►${fancytext(plugins,1)}\n` ; }
-                        str += `\n`  ;
+                        str += `╰–––––––––►\n`  ;
                         break ;
                    }
                    else { for (const plugins of cmds[category]) { str += `┆➪${fancytext(plugins,1)}\n` ; }
-                         str += `\n`  ; 
+                         str += `╰–––––––––►\n`  ; 
                    }
  
                 }
