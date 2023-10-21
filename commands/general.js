@@ -120,9 +120,9 @@ cmd({
 ├──► *🎯Total Stars:* ${data.stargazers_count} stars
 ├──► *🎯Forks:* ${data.forks_count} forks
 ├──► *🎯Repo:* https://github.com/DENZO-UCHIWA/BLAST-MD 
-├──► *🎯Group:* 
+├──► *🎯Group:* https://chat.whatsapp.com/GpQTDBeLmRsEvpdPL6igbC
 ├──► *🎯 tuto vidéo:*
-├──► *🎯My number:*
+├──► *🎯My number:* +244935469526
 ├──► *BLAST*
 ╰──────────────────────►`
         let buttonMessaged = {
