@@ -31,7 +31,8 @@ A very good bot that you can use in whatsapp.
 ## ```Scan QR IN replit here ```
 
  [![Run on Repl.it](https://replit.com/@Itxxwasi/WASI-TECH-BOT)
- 
+ ** 
+ https://replit.com/@Itxxwasi/WASI-TECH-BOT 
 
 
 ## ```DEPLOY IN HEROKU```
