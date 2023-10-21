@@ -32,6 +32,8 @@ A very good bot that you can use in whatsapp.
 
  [![Run on Repl.it](https://replit.com/@Itxxwasi/WASI-TECH-BOT)
  ** 
+ 𝐂𝐋𝐈𝐂𝐊.𝐎𝐍 𝐓𝐇𝐈𝐒 𝐋𝐈𝐍𝐊 𝐅𝐎𝐑 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 👇👇👇👇
+ 
  https://replit.com/@Itxxwasi/WASI-TECH-BOT 
 
 
@@ -68,8 +70,8 @@ A very good bot that you can use in whatsapp.
  ## *TUTORIAL VIDEO HERE⬇️⬇️⬇️*
 
 <a align="left">
-  <a href="https://www.youtube.com/@InnoxentTech?sub_confirmation=1">
-    <img alt=Support height="100" src="https://telegra.ph/file/eb6347e2764939fbbd35d.png"> 
+  <a href="https://youtube.com/@technicalvibs1?si=q0fDzRNl2rgCpZGh">
+    <img alt=Support height="100" src="https://telegra.ph/fi47e2764939fbbd35d.png"> 
   </p>
     
  ## ```𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘔𝘦```
