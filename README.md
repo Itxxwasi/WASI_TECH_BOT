@@ -1,6 +1,6 @@
-# 🎯BLAST-MD
+# 🎯𝐖𝐀𝐒𝐈 𝐓𝐄𝐂𝐇 
 
-<img alt=Support height="550" src="https://telegra.ph/file/66408329a209fbefdff19.jpg"> 
+<img alt=Support height="https://telegra.ph/file/e47fa2db3a862f1532e60.jpg"> 
  
 <p align="center">
  <a href="https://chat.whatsapp.com/JFNXyoRTf4t6e9GTaM2Oe6" target="_blank">
