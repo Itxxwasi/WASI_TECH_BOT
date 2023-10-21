@@ -1,14 +1,14 @@
 {
-  "name": "BLAST-MD",
+  "name": "WASI TECH",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/ad50ea5a171d6647edaa7.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "IzukuBot", "Secktor","IZUKUMD","theme bot","multi device","baileys","excel"],
+  "logo": "https://telegra.ph/file/aad326f954d80af09a7d7.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "Wasi tech", "Secktor","IZUKUMD","theme bot","multi device","baileys","excel"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "DENZO"
+      "value": "WASITECH"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
@@ -32,7 +32,7 @@
 },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/ad50ea5a171d6647edaa7.jpg"
+     "value": "https://telegra.ph/file/aad326f954d80af09a7d7.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -72,7 +72,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "244935469526"
+       "value": "923192173398"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here"
@@ -101,7 +101,7 @@
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "BLACK-MD;DENZO",
+     "value": "WASI MD",
      "required": false 
   },
   "heroku": {
