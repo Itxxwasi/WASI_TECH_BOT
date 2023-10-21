@@ -173,7 +173,7 @@ cmd({
                 caption: `
 ╭–––––––––––––––––––––––►
 ┆►╭──────────────►
-┆►├──► ${tlang().title} 
+┆►├──► *BLAST-MD*
 ┆►├──►  *Youtube Player* 
 ┆►├──► *Title:* ${anu.title}
 ┆►├──► *Duration:* ${anu.timestamp}
@@ -181,7 +181,7 @@ cmd({
 ┆►├──► *Uploaded:* ${anu.ago}
 ┆►├──► *Author:* ${anu.author.name}
 ┆►┆►
-┆►├──► *BLACK-MD*
+┆►├──► *BLAST-MD*
 ┆►└──────────────►
 ╰–––––––––––––––––––––––►
 ⦿ *Url* : ${anu.url}

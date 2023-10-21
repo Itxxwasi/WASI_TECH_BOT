@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your DM I LEFT SOMETHING THERE🤭 ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: IZUKU-Support*\n*Group Link:* https://chat.whatsapp.com/IpDbNkTpz1l520HHFuS7B7`,
+            caption: `*Group Name: 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 𝐒𝐮𝐩𝐩𝐨𝐫𝐭*\n*Group Link:* https://chat.whatsapp.com/GpQTDBeLmRsEvpdPL6igbC`,
         });
 
     }
@@ -496,7 +496,7 @@ cmd({
             } else if (lvpoints <= 46) {
                 var role = "Legend";
             } else if (lvpoints <= 55) {
-                var role = "•IZUKU•";
+                var role = "•BLAST•";
             }
           
             let disc = citel.sender.substring(3, 7);
@@ -1079,7 +1079,7 @@ cmd({
 ┆►┆➪ *🛑 Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ┆►┆➪ *📍 Role*: *${role}*
 ┆►┆➪ *Enjoy! *
-┆►┆➪
+┆►┆➪ *BLAST-MD*
 ┆►╰––––––––––––––►
 ╰–––––––––––►`,
             }, {
