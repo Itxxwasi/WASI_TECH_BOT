@@ -116,13 +116,15 @@ cmd({
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/excelottah6/IZUKU-MD')
         let cap = `Hey ${citel.pushName}\n
-╭┈─────────────────────    .· * • ˚
-│*⭐ Total Stars:* ${data.stargazers_count} stars
-│*🍴 Forks:* ${data.forks_count} forks
-│*📡 Repo:* https://github.com/excelottah6/IZUKU-MD
-│*🏘Group:* https://chat.whatsapp.com/BEhEne7RdGBC3y5vYltuxL
-│*🧑‍💻Deploy IZUKU MD*:https://github.com/excelottah6/IZUKU-MD
-╰──────────────────────✬      * ˚  ✶`
+╭┈─────────────────────► ˚
+├──► *🎯Total Stars:* ${data.stargazers_count} stars
+├──► *🎯Forks:* ${data.forks_count} forks
+├──► *🎯Repo:* https://github.com/DENZO-UCHIWA/BLAST-MD 
+├──► *🎯Group:* 
+├──► *🎯 tuto vidéo:*
+├──► *🎯My number:*
+├──► *BLAST*
+╰──────────────────────►`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -130,7 +132,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "IZUKU-Repo",
+                    title: "BLAST-MD",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
