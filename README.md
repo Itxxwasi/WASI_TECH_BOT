@@ -25,10 +25,10 @@ A very good bot that you can use in whatsapp.
 
 ## [`Fork WASI TECH`](https://github.com/Itxxwasi/WASI_TECH_BOT/fork)
 
+V0.1.1
 
 
-
-## ```Scan QR IN replit here ```
+## ``` ```
 
  [![Run on Repl.it](https://replit.com/@Itxxwasi/WASI-TECH-BOT)
  ** 
