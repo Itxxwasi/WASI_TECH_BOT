@@ -15,13 +15,13 @@
   </p>
   <br>
 </p>
-<h1 align="center"> 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 𝑩𝑶𝑻
+<h1 align="center"> 𝐖𝐀𝐒𝐈_𝐓𝐄𝐂𝐇 𝑩𝑶𝑻
 </h1>
-<p align="center">  𝘽𝙔 𝘿𝙀𝙉𝙕𝙊-𝙐𝘾𝙃𝙄𝙒𝘼 
+<p align="center">  𝘽𝙔 𝐃𝐀𝐑𝐊 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 
 
 # 
 **𝐁𝐋𝐀𝐒𝐓** whatsapp bot is,
-A very good bot that you can use in whatsapp.
+A very good bot that you can use in whatsapp. 
 
 ## [`Fork BLAST-MD `](https://github.com/DENZO-UCHIWA/BLAST-MD/fork)
 
