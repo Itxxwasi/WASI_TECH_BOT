@@ -1,11 +1,4 @@
 /**
-██╗███████╗██╗   ██╗██╗  ██╗██╗   ██╗    ███╗   ███╗██████╗ 
-██║╚══███╔╝██║   ██║██║ ██╔╝██║   ██║    ████╗ ████║██╔══██╗
-██║  ███╔╝ ██║   ██║█████╔╝ ██║   ██║    ██╔████╔██║██║  ██║
-██║ ███╔╝  ██║   ██║██╔═██╗ ██║   ██║    ██║╚██╔╝██║██║  ██║
-██║███████╗╚██████╔╝██║  ██╗╚██████╔╝    ██║ ╚═╝ ██║██████╔╝
-╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝     ╚═╝╚═════╝ 
-
  Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
@@ -252,13 +245,14 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-◐╤╤✪〘   *Tag All*   〙✪╤╤◑
-
-➲ *Message :* ${text ? text : "blank"}\n\n
-➲ *Author:* ${citel.pushName} 👾
+╭─────────────────────►
+├     BLAST-MD 
+└─────────────────────►
+┆➪ *Message :* ${text ? text : "blank"}\n\n
+┆➪ *Author:* ${citel.pushName} 👾
 `
         for (let mem of participants) {
-            textt += ` ⚡️ @${mem.id.split("@")[0]}\n`;
+            textt += ` ┆➪ @${mem.id.split("@")[0]}\n`;
         }
         Void.sendMessage(citel.chat, {
             text: textt,
@@ -507,11 +501,11 @@ cmd({
           
             let disc = citel.sender.substring(3, 7);
             let textr = '';
-            textr += `*Hii ${tlang().greet} ,🌟 ${citel.pushName}∆${disc}'s* Exp\n\n`;
+            textr += `*Hii ${tlang().greet} ,┆➪🎯 ${citel.pushName}∆${disc}'s* Exp\n\n`;
             let ttms = `${userq.xp}` / 8;
-            textr += `*🌟Role*: ${role}\n*🟢Exp*: ${userq.xp} / ${Levels.xpFor(
+            textr += `*┆➪🎯Role*: ${role}\n*┆➪🎯Exp*: ${userq.xp} / ${Levels.xpFor(
     userq.level + 1
-  )}\n*🏡Level*: ${userq.level}\n*Total Messages:*- ${ttms}`;
+  )}\n*┆➪🎯Level*: ${userq.level}\n*Total Messages:*- ${ttms}`;
             try {
                 ppuser = await Void.profilePictureUrl(citel.sender, "image");
             } catch {
@@ -1070,21 +1064,24 @@ cmd({
 		    else if (lvpoints <= 42) { var role = "Legend III"; } 
 		    else if (lvpoints <= 44) { var role = "Legend II"; } 
 		    else if (lvpoints <= 46) { var role = "Legend"; } 
-		    else if (lvpoints <= 55) { var role = "«IZUKU»"; } 
+		    else if (lvpoints <= 55) { var role = "BLAST-MD"; } 
 		    else {  var role = "Kiddo";   }
 
 		    if(name.levelupmessage !== 'false')
-		    {
-			    await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
-			caption: `
-━━━━━༺❃༻━━━━━◇
-☱ *look at that! Someone just leveled up! ✨*
-☱ *👤 Name*: ${citel.pushName}
-☱ *🎚 Level*: ${sck1.level}
-☱ *🛑 Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
-☱ *📍 Role*: *${role}*
-☱ *Enjoy! 😁*━━━━━༺❃༻━━━━——
-`,
+
+		     {
+	      await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
+╭––––––––––––––––––►	       caption: `					  
+┆►╭–––––––––––––––►			
+┆►┆➪ *look at that! Someone just leveled up! ✨*
+┆►┆➪ *👤 Name*: ${citel.pushName}
+┆►┆➪ *🎚 Level*: ${sck1.level}
+┆►┆➪ *🛑 Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
+┆►┆➪ *📍 Role*: *${role}*
+┆►┆➪ *Enjoy! *
+┆►┆➪
+┆►╰––––––––––––––►
+╰–––––––––––►`,
             }, {
                 quoted: citel,
             });
