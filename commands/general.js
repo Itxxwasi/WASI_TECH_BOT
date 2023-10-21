@@ -114,16 +114,16 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/excelottah6/IZUKU-MD')
+        let { data } = await axios.get('https://github.com/Itxxwasi/WASI_TECH_BOT')
         let cap = `Hey ${citel.pushName}\n
 ╭┈─────────────────────► ˚
 ├──► *🎯Total Stars:* ${data.stargazers_count} stars
 ├──► *🎯Forks:* ${data.forks_count} forks
-├──► *🎯Repo:* https://github.com/DENZO-UCHIWA/BLAST-MD 
-├──► *🎯Group:* https://chat.whatsapp.com/GpQTDBeLmRsEvpdPL6igbC
+├──► *🎯Repo:* https://github.com/Itxxwasi/WASI_TECH_BOT
+├──► *🎯Group:* https://chat.whatsapp.com/I1FymAZqrigItemS57hB88
 ├──► *🎯 tuto vidéo:*
-├──► *🎯My number:* +244935469526
-├──► *BLAST*
+├──► *🎯My number:* 923192173398
+├──► *𝐃𝐀𝐑𝐊 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 𝐖𝐀𝐒𝐈*
 ╰──────────────────────►`
         let buttonMessaged = {
             image: { url: await botpic() },
@@ -132,7 +132,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "BLAST-MD",
+                    title: "WASITECH",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
