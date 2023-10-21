@@ -39,7 +39,7 @@ A very good bot that you can use in whatsapp.
 
 ## ```DEPLOY IN HEROKU```
 
-[![Deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/DENZO-UCHIWA/BLAST-MD&template=https://github.com/DENZO-UCHIWA/BLAST-MD.git)
+[![Deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Itxxwasi/WASI_TECH_BOT&template=https://github.com/Itxxwasi/WASI_TECH_BOT.git)
 
 ## ```DEPLOY IN REPLIT```
 
