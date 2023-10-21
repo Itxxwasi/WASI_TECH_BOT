@@ -60,35 +60,40 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Africa/Lagos').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `━━❰ ` + fancytext(Config.ownername.split(' ')[0], 38) + `❱━━━\n`
+                let str = `––––––––––––〘 ` + fancytext(Config.ownername.split(' ')[0], 38) + `〙––––––––––––\n`
                 str +=
-                    '```' + ` ╔═══════ ❃ ══════════
-⁞❏. User:- ${citel.pushName} 
-⁞❏. Theme:- ${tlang().title}
-⁞❏. Prefix:- ❑ ${prefix} ❑
-⁞❏. Owner:- ${Config.ownername} »
-⁞❏.Plugins:- ${commands.length} »
-⁞❏. Users:- ${total} 
-⁞❏. Uptime:- ${runtime(process.uptime())} »
-⁞❏. Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())} »
-⁞❏. Time:- ${time} »
-⁞❏.Date:- ${date} »
-╚═══════ ❃ ══════════\n
+                    '```' + `✤––––––––––––✤
+┆►┆➪ 𝐔𝐬𝐞𝐫: ${citel.pushName} 
+┆►┆➪ 𝐓𝐡𝐞𝐦𝐞𝐬: ${tlang().title}
+┆►┆➪ 𝐏𝐫𝐞𝐟𝐢𝐱𝐞: 〘 ${prefix} 〙
+┆►┆➪ 𝐎𝐰𝐧𝐞𝐫: ${Config.ownername} 
+┆►┆➪ 𝐏𝐥𝐮𝐠𝐢𝐧𝐬: ${commands.length} 
+┆►┆➪ 𝐔𝐬𝐞𝐫: ${total} 
+┆►┆➪ 𝐔𝐩𝐭𝐢𝐦𝐞: ${runtime(process.uptime())} 
+┆►┆➪ 𝐌𝐞𝐦: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())} 
+┆►┆➪ 𝐓𝐢𝐦𝐞: ${time} 
+┆►┆➪ 𝐃𝐚𝐭𝐞: ${date} 
+┆►┆➪
+┆►┆➪ 👋𝐇𝐢 𝐈'𝐚𝐦 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 
+┆►┆➪
+┆►┆➪𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐩𝐞𝐝 𝐁𝐲 𝐃𝐄𝐍𝐙𝐎 𝐔𝐂𝐇𝐈𝐖𝐀 
+┆►╰––––––––––––––––––––––––►
+╰–––––––––––––––––––––––––►\n
 ` + '```'
                 for (const category in cmds) 
                 {
-                   str += `◎═══•『*${tiny(category)}*』•═══◎\n` ;
-                   if(text.toLowerCase() == category.toLowerCase()){ str = `┏━━━•❃ *${tiny(category)}* ❃•━━━┓\n` ;      
-                        for (const plugins of cmds[category]) { str += `「★」${fancytext(plugins,1)}\n` ; }
-                        str += `─── ✧《✩》✧ ───\n`  ;
+                   str += `––––––––––〘*${tiny(category)}*〙––––––––––\n` ;
+                   if(text.toLowerCase() == category.toLowerCase()){ str = `✤–––––––––––– *${tiny(category)}* ✤––––––––––––\n` ;      
+                        for (const plugins of cmds[category]) { str += `┆►${fancytext(plugins,1)}\n` ; }
+                        str += `––––––〘►〙––––––\n`  ;
                         break ;
                    }
                    else { for (const plugins of cmds[category]) { str += `「★」${fancytext(plugins,1)}\n` ; }
-                         str += `─── ✧《✩》✧ ───\n`  ; 
+                         str += `––––––〘►〙––––––\n`  ; 
                    }
-  
+ 
                 }
-                str+= `*⚡️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*Made by 🥷 Excel* `
+                str+= `*Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*BLAST-MD* `
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
