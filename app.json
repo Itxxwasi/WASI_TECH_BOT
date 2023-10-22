@@ -2,7 +2,7 @@
   "name": "WASI TECH",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   "logo": "https://telegra.ph/file/aad326f954d80af09a7d7.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "Wasi tech", "Secktor","IZUKUMD","theme bot","multi device","baileys","excel"],
+  "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "Wasi tech", "Secktor","Whatsapp bot","theme bot","multi device","baileys","Suhail md"],
   "success_url": "/",
   "stack": "container",
 "env": {
@@ -54,7 +54,7 @@
      "value": "true"
     },
     "SUDO": {
-    "description": "PUT OWNER NUMBER NOTE:remove the + and must be in international form eg:244935469526",
+    "description": "PUT OWNER NUMBER NOTE:remove the + and must be in international form eg: 923192173398",
      "required"  :false
     },
       "READ_MESSAGE": {
