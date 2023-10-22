@@ -12,13 +12,13 @@ global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '244935469526'
 global.devs = '244935469526';
-global.website = 'https://github.com/DENZO-UCHIWA/BLAST-MD' //wa.me/+91000000000000
+global.website = 'https://github.com/Itxxwasi/WASI_TECH_BOT' //wa.me/+923192173398
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'BLAST 𝐁𝐨𝐭' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'DENZO' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'WASI TECH BOT 𝐁𝐨𝐭' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'WASI' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'DENZO' : process.env.PACK_INFO.split(";")[0],
+  author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'DARK CREATOR' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'BLAST-MD' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
